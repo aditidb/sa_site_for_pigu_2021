@@ -1,0 +1,45 @@
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.pp {
+  margin-bottom: 20px;
+}
+
+.head {
+  background-color: black;
+  font-family: cursive;
+  width: 80%;
+  margin: auto;
+  border: 10px red solid;
+  padding: 20px;
+}
+
+.glow {
+  font-size: 50px;
+  color: yellow;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+  font-family: tisa;
+  font-style: italic;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ccc, 0 0 20px #ccc, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #ccc, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
